@@ -1,2 +1,10 @@
 # phabricator-ios-app
-Simple Wrapper for the Phabricator
+
+Just a simple Wrapper for the Phabricator (https://www.phacility.com/phabricator/)
+
+![](screenshot.png)
+
+# Installation
+
+Set `Config.general.baseurl` in `Config.swift`
+Build.
