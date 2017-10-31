@@ -10,7 +10,7 @@ import UIKit
 
 class PhrictionViewController: CustomWebViewController {
 
-    let url = URL(string: "\(Config.general.baseurl)w/")!
+    let url = URL(string: "\(Config.general.baseurl)w/?slug=&__print__=1")!
     let addUrl = URL(string: "\(Config.general.baseurl)phriction/new/?slug=&__print__=1")!
     
     override func viewDidLoad() {
